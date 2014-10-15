@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Circle suelo;
+    private Person man;
    
 
     /**
@@ -104,7 +105,13 @@ public class Picture
     }
     
     
-    
+    public void manWalk()
+    {
+        man = new Person();
+        man.moveHorizontal(-350);
+        man.makeVisible();
+        man.slowMoveHorizontal(350);
+    }
     
     
     
