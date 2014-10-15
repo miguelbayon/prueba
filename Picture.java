@@ -63,8 +63,7 @@ public class Picture
         suelo.moveVertical(150);
         suelo.moveHorizontal(-700);
         suelo.makeVisible();
-        
-        sun.slowMoveVertical(130);        
+              
     }
 
     /**
