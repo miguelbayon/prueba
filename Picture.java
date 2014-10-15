@@ -98,6 +98,9 @@ public class Picture
     public void moveSun()
     {
         sun.slowMoveVertical(100);
+        
+        setBlackAndWhite();
+        suelo.changeColor("black");
     }
     
     
